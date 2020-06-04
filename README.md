@@ -17,7 +17,7 @@ jmesPathValue: Performs a JmesPath query
 Problems: 
 Compared to the NodeJs version, this transformer:
   1. cannot deal with $each and $exist
-  2. do not have a async traverse 
+  2. do not have an async traverse 
   3. do not include other mapping functions
   4. cannot handle errors and exceptions
   5. only deal with one type of the JMESPath operation (the most direct and basic one)
