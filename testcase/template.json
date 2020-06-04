@@ -1,0 +1,47 @@
+{
+    "@idsType": "spr-bruker-sierra",
+    "@idsVersion": "v1.0.0",
+    "@idsNamespace": "common",
+    "user": {
+        "name": {
+            "$path": "AssayData.UserName"
+        }
+    },
+    "time": {
+        "": ""
+    },
+    "system": {
+        "model": {
+            "$path": "AssayData.InstrumentType"
+        },
+        "id": {
+            "$path": "AssayData.SystemID"
+        },
+        "software": {
+            "version": {
+                "$path": "AssayData.ControlSoftwareVersion"
+            }
+        }
+    },
+    "experiment": {
+        "assay": {
+            "$path": "AssayData.AssayTitle"
+        }
+    },
+    "method": {
+        "id": {
+            "$path": "AssayData.Method.UniqueID"
+        },
+        "instrument": {
+            "surface_type": {
+                "$path": "AssayData.SensorInformation.SurfaceType"
+            }
+        },
+        "name": {
+            "$path": "AssayData.Method.Name"
+        },
+        "description": {
+            "$path": "AssayData.Method.Description"
+        }
+    }
+}
